@@ -1,0 +1,11 @@
+name: "Fabric Sync"
+description: "Synchronizes Fabric Workspace to Github Repository"
+author: "Daniel S. Davis <Nor'East Data>"
+inputs:
+  input_1:
+    description: "An example input"
+    required: false
+    default: "World"
+runs:
+  using: "node20"
+  main: "dist/index.js"
